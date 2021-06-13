@@ -1,0 +1,32 @@
+nav {
+    background-color: aqua;
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .left {
+        float: left;
+        background-color: silver;
+        a {
+            margin-right: 10px;
+        }
+    }
+
+    .right {
+        background-color: burlywood;
+        text-align: right;
+        a {
+            margin-left : 10px;
+        }
+    }
+}
+
+h1 {
+    background-color: gainsboro;
+    text-align: center;
+}
