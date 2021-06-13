@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Open Class Tracker</title>
-        <link rel="stylesheet" href="static/index.css">
-    </head>
-    <body>
-        <nav>
-            <div class="left">
-                <a href="{% url 'core:index' %}">Home</a>
-                <a href="{% url 'core:about' %}">About</a>
-            </div>
-            <div class="right">
-                <a href="{% url 'core:pricing' %}">Pricing</a>
-                <a href="{% url 'core:support' %}">Support</a>
-            </div>
-        </nav>
-        <h1>Track Classes</h1>
-    </body>
-</html>
+{% extends 'core/layout.html' %}
+
+{% block title %}
+    Open Class Tracker
+{% endblock %}
+
+{% block body %}
+    <h1 class="indexh1">Get to know when classes OPEN!</h1>
+{% endblock %}
